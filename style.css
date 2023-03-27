@@ -1,0 +1,31 @@
+/* Estilos terrario */ 
+/*selector de etiqueta*/
+h1{
+    color: thistle;
+    text-align: center;
+    
+  }  
+ #left-container{
+    background-color: #E1D9Cf;
+    height: 100%;
+    width: 15%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    border: 3px;
+    border-color: bisque;
+    border-style: dashed;
+    padding: 10px;
+ }
+ #right-container{
+    background-color: #eee;
+    height: 100%;
+    width: 15%;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    border: 3px;
+    border-color: blueviolet;
+    border-style: dashed;
+    padding: 10px;
+ }
