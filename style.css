@@ -4,28 +4,39 @@ h1{
     color: thistle;
     text-align: center;
     
-  }  
- #left-container{
-    background-color: #E1D9Cf;
-    height: 100%;
-    width: 15%;
+  } 
+
+  .container{
+   background-color: #E1D9Cf;
+   height: 100%;
+   width: 15%;
+   top: 0px;
+   position: absolute;
+   padding: 10px;
+   border: 3px;
+   border-color: bisque;
+   border-style: dashed;
+  }
+
+ #left-container{ 
     left: 0px;
-    top: 0px;
-    position: absolute;
-    border: 3px;
-    border-color: bisque;
-    border-style: dashed;
-    padding: 10px;
  }
  #right-container{
-    background-color: #eee;
-    height: 100%;
-    width: 15%;
     right: 0px;
-    top: 0px;
-    position: absolute;
-    border: 3px;
-    border-color: blueviolet;
-    border-style: dashed;
-    padding: 10px;
  }
+
+ .plant-holder{
+   position: relative; 
+   height: 13%;
+   left: -10px;
+   border: 3px;
+   border-color: rgb(149, 216, 247);
+   border-style: dashed;
+} 
+.plant{
+   position: absolute;
+   max-width: 150%;
+   max-height: 150%;
+   z-index: 2;
+}
+
